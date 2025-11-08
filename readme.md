@@ -9,3 +9,8 @@ Javascript + HTML
 ## Vite Bundler :
 it starts the server instantly , only load the files which browser actually request, uses browser native ESM and also converts the JSX files into plain HTML,CSS, JS files that browser can understand.
 
+In react you can only pass evaluated expressions and can perform basic calculation.You cannt write the whole logic like lopps and conditons in it.
+
+state :It is an object that shows the current update data in the UI 
+
+#Reconcillation
