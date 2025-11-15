@@ -13,4 +13,7 @@ In react you can only pass evaluated expressions and can perform basic calculati
 
 state :It is an object that shows the current update data in the UI 
 
-#Reconcillation
+# Reconcillation :
+
+props: a way to send data from a parentt component from parent component to a child component.
+
