@@ -17,3 +17,6 @@ state :It is an object that shows the current update data in the UI
 
 props: a way to send data from a parentt component from parent component to a child component.
 
+# useCallback() :
+When your component re-renders, any functions you define inside it are created again—so they're new each time, even if their logic hasn't changed.
+useCallback helps you “save” (cache) a function so React doesn’t make a new one after every render unless its data (called dependencies) changes.
