@@ -29,7 +29,7 @@ function App() {
     if (password) {
       await window.navigator.clipboard.writeText(password); // <-- add await
       passwordRef.current?.select();
-      alert("Copied");
+      alert("Copied ");
     }
   };
 
